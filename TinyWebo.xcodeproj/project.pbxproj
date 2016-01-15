@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECEC35A61C48A1330030658D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC35A51C48A1330030658D /* main.m */; };
+		ECEC35A91C48A1330030658D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC35A81C48A1330030658D /* AppDelegate.m */; };
+		ECEC35AC1C48A1330030658D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC35AB1C48A1330030658D /* MasterViewController.m */; };
+		ECEC35AF1C48A1330030658D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC35AE1C48A1330030658D /* DetailViewController.m */; };
+		ECEC35B21C48A1330030658D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEC35B01C48A1330030658D /* Main.storyboard */; };
+		ECEC35B41C48A1330030658D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECEC35B31C48A1330030658D /* Assets.xcassets */; };
+		ECEC35B71C48A1330030658D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEC35B51C48A1330030658D /* LaunchScreen.storyboard */; };
+		ECEC35C21C48A1330030658D /* TinyWeboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC35C11C48A1330030658D /* TinyWeboTests.m */; };
+		ECEC35CD1C48A1330030658D /* TinyWeboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC35CC1C48A1330030658D /* TinyWeboUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECEC35BE1C48A1330030658D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECEC35991C48A1330030658D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECEC35A01C48A1330030658D;
+			remoteInfo = TinyWebo;
+		};
+		ECEC35C91C48A1330030658D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECEC35991C48A1330030658D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECEC35A01C48A1330030658D;
+			remoteInfo = TinyWebo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECEC35A11C48A1330030658D /* TinyWebo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyWebo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEC35A51C48A1330030658D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECEC35A71C48A1330030658D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECEC35A81C48A1330030658D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECEC35AA1C48A1330030658D /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		ECEC35AB1C48A1330030658D /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		ECEC35AD1C48A1330030658D /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		ECEC35AE1C48A1330030658D /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		ECEC35B11C48A1330030658D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECEC35B31C48A1330030658D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECEC35B61C48A1330030658D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECEC35B81C48A1330030658D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECEC35BD1C48A1330030658D /* TinyWeboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyWeboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEC35C11C48A1330030658D /* TinyWeboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinyWeboTests.m; sourceTree = "<group>"; };
+		ECEC35C31C48A1330030658D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECEC35C81C48A1330030658D /* TinyWeboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyWeboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEC35CC1C48A1330030658D /* TinyWeboUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinyWeboUITests.m; sourceTree = "<group>"; };
+		ECEC35CE1C48A1330030658D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECEC359E1C48A1330030658D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEC35BA1C48A1330030658D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEC35C51C48A1330030658D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECEC35981C48A1330030658D = {
+			isa = PBXGroup;
+			children = (
+				ECEC35A31C48A1330030658D /* TinyWebo */,
+				ECEC35C01C48A1330030658D /* TinyWeboTests */,
+				ECEC35CB1C48A1330030658D /* TinyWeboUITests */,
+				ECEC35A21C48A1330030658D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECEC35A21C48A1330030658D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC35A11C48A1330030658D /* TinyWebo.app */,
+				ECEC35BD1C48A1330030658D /* TinyWeboTests.xctest */,
+				ECEC35C81C48A1330030658D /* TinyWeboUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECEC35A31C48A1330030658D /* TinyWebo */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC35A71C48A1330030658D /* AppDelegate.h */,
+				ECEC35A81C48A1330030658D /* AppDelegate.m */,
+				ECEC35AA1C48A1330030658D /* MasterViewController.h */,
+				ECEC35AB1C48A1330030658D /* MasterViewController.m */,
+				ECEC35AD1C48A1330030658D /* DetailViewController.h */,
+				ECEC35AE1C48A1330030658D /* DetailViewController.m */,
+				ECEC35B01C48A1330030658D /* Main.storyboard */,
+				ECEC35B31C48A1330030658D /* Assets.xcassets */,
+				ECEC35B51C48A1330030658D /* LaunchScreen.storyboard */,
+				ECEC35B81C48A1330030658D /* Info.plist */,
+				ECEC35A41C48A1330030658D /* Supporting Files */,
+			);
+			path = TinyWebo;
+			sourceTree = "<group>";
+		};
+		ECEC35A41C48A1330030658D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC35A51C48A1330030658D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECEC35C01C48A1330030658D /* TinyWeboTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC35C11C48A1330030658D /* TinyWeboTests.m */,
+				ECEC35C31C48A1330030658D /* Info.plist */,
+			);
+			path = TinyWeboTests;
+			sourceTree = "<group>";
+		};
+		ECEC35CB1C48A1330030658D /* TinyWeboUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC35CC1C48A1330030658D /* TinyWeboUITests.m */,
+				ECEC35CE1C48A1330030658D /* Info.plist */,
+			);
+			path = TinyWeboUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECEC35A01C48A1330030658D /* TinyWebo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEC35D11C48A1330030658D /* Build configuration list for PBXNativeTarget "TinyWebo" */;
+			buildPhases = (
+				ECEC359D1C48A1330030658D /* Sources */,
+				ECEC359E1C48A1330030658D /* Frameworks */,
+				ECEC359F1C48A1330030658D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyWebo;
+			productName = TinyWebo;
+			productReference = ECEC35A11C48A1330030658D /* TinyWebo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECEC35BC1C48A1330030658D /* TinyWeboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEC35D41C48A1330030658D /* Build configuration list for PBXNativeTarget "TinyWeboTests" */;
+			buildPhases = (
+				ECEC35B91C48A1330030658D /* Sources */,
+				ECEC35BA1C48A1330030658D /* Frameworks */,
+				ECEC35BB1C48A1330030658D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECEC35BF1C48A1330030658D /* PBXTargetDependency */,
+			);
+			name = TinyWeboTests;
+			productName = TinyWeboTests;
+			productReference = ECEC35BD1C48A1330030658D /* TinyWeboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECEC35C71C48A1330030658D /* TinyWeboUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEC35D71C48A1330030658D /* Build configuration list for PBXNativeTarget "TinyWeboUITests" */;
+			buildPhases = (
+				ECEC35C41C48A1330030658D /* Sources */,
+				ECEC35C51C48A1330030658D /* Frameworks */,
+				ECEC35C61C48A1330030658D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECEC35CA1C48A1330030658D /* PBXTargetDependency */,
+			);
+			name = TinyWeboUITests;
+			productName = TinyWeboUITests;
+			productReference = ECEC35C81C48A1330030658D /* TinyWeboUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECEC35991C48A1330030658D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = fengchao;
+				TargetAttributes = {
+					ECEC35A01C48A1330030658D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					ECEC35BC1C48A1330030658D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ECEC35A01C48A1330030658D;
+					};
+					ECEC35C71C48A1330030658D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ECEC35A01C48A1330030658D;
+					};
+				};
+			};
+			buildConfigurationList = ECEC359C1C48A1330030658D /* Build configuration list for PBXProject "TinyWebo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECEC35981C48A1330030658D;
+			productRefGroup = ECEC35A21C48A1330030658D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECEC35A01C48A1330030658D /* TinyWebo */,
+				ECEC35BC1C48A1330030658D /* TinyWeboTests */,
+				ECEC35C71C48A1330030658D /* TinyWeboUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECEC359F1C48A1330030658D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEC35B71C48A1330030658D /* LaunchScreen.storyboard in Resources */,
+				ECEC35B41C48A1330030658D /* Assets.xcassets in Resources */,
+				ECEC35B21C48A1330030658D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEC35BB1C48A1330030658D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEC35C61C48A1330030658D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECEC359D1C48A1330030658D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEC35A91C48A1330030658D /* AppDelegate.m in Sources */,
+				ECEC35AC1C48A1330030658D /* MasterViewController.m in Sources */,
+				ECEC35A61C48A1330030658D /* main.m in Sources */,
+				ECEC35AF1C48A1330030658D /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEC35B91C48A1330030658D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEC35C21C48A1330030658D /* TinyWeboTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEC35C41C48A1330030658D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEC35CD1C48A1330030658D /* TinyWeboUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECEC35BF1C48A1330030658D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECEC35A01C48A1330030658D /* TinyWebo */;
+			targetProxy = ECEC35BE1C48A1330030658D /* PBXContainerItemProxy */;
+		};
+		ECEC35CA1C48A1330030658D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECEC35A01C48A1330030658D /* TinyWebo */;
+			targetProxy = ECEC35C91C48A1330030658D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECEC35B01C48A1330030658D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECEC35B11C48A1330030658D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECEC35B51C48A1330030658D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECEC35B61C48A1330030658D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECEC35CF1C48A1330030658D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECEC35D01C48A1330030658D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECEC35D21C48A1330030658D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TinyWebo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aa.TinyWebo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECEC35D31C48A1330030658D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TinyWebo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aa.TinyWebo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECEC35D51C48A1330030658D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TinyWeboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aa.TinyWeboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyWebo.app/TinyWebo";
+			};
+			name = Debug;
+		};
+		ECEC35D61C48A1330030658D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TinyWeboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aa.TinyWeboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyWebo.app/TinyWebo";
+			};
+			name = Release;
+		};
+		ECEC35D81C48A1330030658D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TinyWeboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aa.TinyWeboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TinyWebo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ECEC35D91C48A1330030658D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TinyWeboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aa.TinyWeboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TinyWebo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECEC359C1C48A1330030658D /* Build configuration list for PBXProject "TinyWebo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEC35CF1C48A1330030658D /* Debug */,
+				ECEC35D01C48A1330030658D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECEC35D11C48A1330030658D /* Build configuration list for PBXNativeTarget "TinyWebo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEC35D21C48A1330030658D /* Debug */,
+				ECEC35D31C48A1330030658D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECEC35D41C48A1330030658D /* Build configuration list for PBXNativeTarget "TinyWeboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEC35D51C48A1330030658D /* Debug */,
+				ECEC35D61C48A1330030658D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECEC35D71C48A1330030658D /* Build configuration list for PBXNativeTarget "TinyWeboUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEC35D81C48A1330030658D /* Debug */,
+				ECEC35D91C48A1330030658D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECEC35991C48A1330030658D /* Project object */;
+}
